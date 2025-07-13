@@ -7,7 +7,7 @@
 
 </div>
 
-### Name : [Your Name Here]
+### Name : Ahmad Fadli Hutasuhut
 ### Tech Stack : Python, Gradio, LangChain, HuggingFace Embedding, FAISS vector store
 
 ---
