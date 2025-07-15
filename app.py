@@ -95,4 +95,10 @@ with gr.Blocks(theme=gr.themes.Soft()) as demo:  # Tambahkan tema untuk UI yang 
 
 # Jalankan aplikasi
 if __name__ == "__main__":
-    demo.launch(share=False)  # Set share=True jika ingin membagikan aplikasi secara publik
+    # Konfigurasi untuk deployment cloud (Heroku/EasyPanel)
+    port = int(os.environ.get("PORT", 7860))  # Gunakan PORT dari environment atau default 7860
+    demo.launch(
+        server_name="0.0.0.0",  # Bind ke semua interface untuk cloud deployment
+        server_port=port,
+        share=False
+    )
