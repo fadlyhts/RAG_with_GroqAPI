@@ -1,9 +1,22 @@
+# PyTorch CPU-only index to prevent CUDA dependency downloads
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+# LangChain and RAG components
 langchain
-langchain-community
+langchain-community  
 langchain-groq
+
+# UI and document processing
 gradio
 pypdf
 python-dotenv
+
+# Vector store - CPU optimized version
 faiss-cpu
+
+# ML packages - will use CPU-only versions from the extra index above
+torch>=2.0.0,<3.0.0
 sentence-transformers
+
+# LLM API client
 groq
