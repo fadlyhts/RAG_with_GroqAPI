@@ -93,7 +93,7 @@ def get_llm():
 - Clone this repository with:
 
 ```git
-git clone https://github.com/arifian853/RAG_with_GroqAPI.git
+git clone https://github.com/faldyhts/RAG_with_GroqAPI.git
 ```
 
 - Copy the `.env.example` file and rename it to `.env`
