@@ -51,6 +51,12 @@ User Question → Similarity Search → Context Retrieval → LLM Processing →
 ### Error saat install dependencies
 - Pastikan Python versi 3.8+ terinstall
 - Gunakan virtual environment untuk menghindari konflik dependencies
+- Jalankan `python verify_installation.py` untuk memverifikasi instalasi
+
+### Error: Connection timeout saat install PyTorch/CUDA
+- Project ini sudah dikonfigurasi untuk menggunakan CPU-only PyTorch
+- Jika masih ada masalah, lihat `DEPLOYMENT.md` untuk panduan instalasi khusus cloud platform
+- Untuk cloud deployment (EasyPanel, Heroku, dll), gunakan CPU-only installation
 
 ### Aplikasi tidak bisa diakses
 - Periksa apakah port 7860 tidak digunakan aplikasi lain

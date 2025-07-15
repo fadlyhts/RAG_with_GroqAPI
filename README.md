@@ -138,6 +138,12 @@ pip install -r requirements.txt
 
 **Note:** The application uses CPU-only versions of PyTorch to avoid large CUDA package downloads, making deployments faster and more reliable on cloud platforms like EasyPanel. See `DEPLOYMENT.md` for more details.
 
+- Verify the installation:
+
+```bash
+python verify_installation.py
+```
+
 - Run the application:
 
 ```bash

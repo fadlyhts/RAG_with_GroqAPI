@@ -1,2 +1,20 @@
 .env
-venv
+.venv
+
+# PyTorch and ML model caches
+.cache/
+__pycache__/
+*.pyc
+*.pyo
+
+# Hugging Face cache
+.huggingface/
+
+# FAISS index files
+*.faiss
+*.index
+
+# Virtual environments
+venv/
+env/
+test_*/
